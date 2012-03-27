@@ -1,0 +1,10 @@
+redis-latest:
+  type: custom
+  systempackages:
+    - libc
+    - gcc
+  buildscript: redis-latest/builder
+  ports:
+    http: 6379
+    tcp: 6379
+  process: ~/run
