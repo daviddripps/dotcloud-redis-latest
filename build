@@ -15,14 +15,13 @@ echo 'installed.'
 
 #copy files to home dir in case you want to see what settings are being run
 cp -a . ~/
-cd redis-stable
 
 #if you choose not to copy all files using the lines above, you still need to copy the redis.conf
 #cp redis.conf ~/
 
 echo 'copying executables to home directory'
 
-cd src
+cd redis-stable/src
 cp redis-server ~/
 cp redis-cli ~/
 
