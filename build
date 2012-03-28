@@ -1,0 +1,28 @@
+#!/bin/bash
+
+wget http://download.redis.io/redis-stable.tar.gz
+
+echo 'Redis downloaded'
+
+tar -xvf redis-stable.tar.gz
+
+echo 'unzipped.'
+
+cd redis-stable
+make
+cd ..
+echo 'installed.'
+
+#copy files to home dir in case you want to see what settings are being run
+cp -a . ~/
+cd redis-stable
+
+#if you choose not to copy all files using the lines above, you still need to copy the redis.conf
+#cp redis.conf ~/
+
+echo 'copying executables to home directory'
+
+cd src
+cp redis-server ~/
+cp redis-cli ~/
+

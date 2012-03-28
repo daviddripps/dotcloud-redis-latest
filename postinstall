@@ -1,0 +1,4 @@
+#!/bin/bash
+
+#assign the port in the ENV vars to the redis.conf
+echo port $PORT_REDIS >> ~/redis.conf
