@@ -2,3 +2,9 @@
 
 #assign the port in the ENV vars to the redis.conf
 echo port $PORT_REDIS >> ~/redis.conf
+
+#output the info to the CLI user
+echo '********************'
+echo 'Use the following url to access this service:'
+echo $DOTCLOUD_DB_REDIS_URL
+echo '********************'
