@@ -14,4 +14,4 @@ Since this always pulls the most recent, stable version of Redis, it will automa
 
 ## More Info
 
-For more information on what's going on under the hood please visit: http://www.daviddripps.com/2012/03/27/installing-redis-2-4-on-dotcloud
+For more information on what's going on under the hood please visit: http://www.daviddripps.com/2012/03/28/installing-redis-2-4-on-dotcloud
