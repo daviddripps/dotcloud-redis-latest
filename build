@@ -9,7 +9,7 @@ tar -xvf redis-stable.tar.gz
 echo 'unzipped.'
 
 cd redis-stable
-make
+make && make test
 cd ..
 echo 'installed.'
 

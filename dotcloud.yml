@@ -3,6 +3,7 @@ db:
   buildscript: build
   systempackages:
     - gcc
+    - tcl8.5
   ports:
     redis: tcp
   process:
